@@ -1,0 +1,29 @@
+{
+  "name": "import-change-js-to-ts-extensions",
+  "author": "Kamil Ogórek <kamil.ogorek@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamilogorek/codemods",
+    "directory": "import-change-js-to-ts-extensions"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "20.9.0",
+    "typescript": "^5.2.2",
+    "vitest": "^1.0.1",
+    "@codemod.com/codemod-utils": "*",
+    "jscodeshift": "^0.15.1",
+    "@types/jscodeshift": "^0.11.10"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "files": [
+    "README.md",
+    ".codemodrc.json",
+    "/dist/index.cjs"
+  ],
+  "type": "module",
+  "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab"
+}
