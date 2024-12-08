@@ -1,0 +1,12 @@
+{
+  "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
+  "name": "import-add-js-extensions",
+  "description": "Add .js file extension to relative, top-level imports",
+  "version": "1.0.0",
+  "private": false,
+  "engine": "jscodeshift",
+  "meta": {
+    "tags": ["migration"],
+    "git": "https://github.com/kamilogorek/codemods/tree/master/import-add-js-extensions"
+  }
+}
